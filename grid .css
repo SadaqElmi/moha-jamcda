@@ -1,0 +1,103 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-left: 50px;
+}
+.qoral{
+    width: 200px;
+    vertical-align: top;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.yar{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.sa{font-size: 20px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.ya{
+display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+.ani{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+.sadaq{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+/* baraatiko */
+
+
+
+.grid1{
+    display: grid;
+    grid-template-columns: 100px 
+    200px 100px ;
+    grid-template-rows: 100px 50px;
+    margin-bottom: 50px;
+ /* grid-template-columns: repeat(3,100px); */
+ /* grid-auto-rows: ; */
+ /* grid-auto-rows: minmax(150px ,auto); */
+ /* space */
+ /* grid-row-gap: ;
+ grid-column-gap: ;
+ grid-gap: ; */
+}
+.one{
+    background-color: red;
+    /* grid-column-start: ;
+    grid-column-end: ;
+    grid-column: ; */
+
+    /* grid-row: span; */
+}
+.two{
+    background-color: rgb(42, 88, 142);
+   
+}
+.three{
+    background-color: rgb(212, 255, 0);
+  
+}
+.four{
+    background-color: rgb(0, 166, 255);
+}
+.five{
+    background-color: rgb(4, 0, 255);
+}
+.six{
+background-color: rgb(255, 0, 132);
+}
+.seven{
+    background-color: rgb(0, 255, 17);
+}
+.eight{
+    background-color: red;
+}

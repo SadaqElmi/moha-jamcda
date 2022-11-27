@@ -1,0 +1,205 @@
+/* header */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+    margin-bottom: 20px;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.right{
+    font-weight: bold;
+    font-size: 20px;
+flex: 1;
+color: white;
+}
+.me{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    display: flex;
+    margin-left: -30px;
+    align-items: center;
+}
+.in{
+    flex: 1;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 1px  solid rgb(225, 225, 225);
+    font-size: 15px;
+}
+.in::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.but{
+    width: 50px;
+    padding-top: 3px;
+    margin-left: -30px;
+    border: 1px solid rgb(225, 225, 225);
+}
+.v{
+    width: 30px;
+    padding-top: 5px;
+}
+
+.left{
+    display: flex;
+}
+.u{
+    display: flex;
+    flex-direction: row;
+}
+.u,.li,a{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+    color: white;
+}
+li ,a:hover{
+    color: red;
+}
+
+
+
+
+
+/* two */
+
+
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dhaman{
+    width: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(225, 225, 225);
+    margin-bottom: 20px;
+}
+.al{
+    color: gray;
+}
+.ku{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cat{
+    margin-right: 10px;
+}
+.face{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.qoral{
+    flex: 1;
+}
+.kuli{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ch{
+    font-weight: bold;
+    font-size: 18px;
+}
+.time{
+    font-size: 15px;
+    color: grey;
+}
+.big{
+    font-weight: bold;
+}
+.hey{
+    color: grey;
+}
+
+
+
+/* three */
+
+
+.dham{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+     padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(225, 225, 225);
+    margin-bottom: 20px;
+}
+.ca{
+    margin-right: 10px;
+}
+.fac{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.qor{
+    flex: 1;
+}
+.kudh{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+}
+.sad{
+    font-weight: bold;
+    
+}
+.sadq{
+    color: grey;
+    margin-left: 3px;
+}
+.w{
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.wax{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.kalr{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(225, 225, 225);
+    margin-right: 10px;
+   
+}
+.you{
+    flex: 1;
+}
+.y{
+    color: gray;
+    margin-left: 5px;
+}
+.bac{
+    margin-left: 5px;
+    font-weight: bold;
+    line-height: 20px;
+}
