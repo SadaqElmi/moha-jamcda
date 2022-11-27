@@ -1,0 +1,58 @@
+div{
+    font-family: arial;
+}
+.dhaman{
+    width: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(195, 195, 195);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.all{
+    color: gray;
+    font-size: 15px;
+}
+.cat{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.face{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.qoralka{
+ flex: 1;
+
+}
+.kudhexjira{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 3px;
+}
+.ch{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sacad{
+   color: gray;
+   font-size: 12px;
+}
+.big{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.hey{
+    color: gray;
+}

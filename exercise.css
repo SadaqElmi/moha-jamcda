@@ -1,0 +1,43 @@
+.kore{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.a{
+    background-color: lightcoral;
+    width: 150px;
+    height: 50px;
+}
+.b{
+    width: 200px;
+    background-color: lightblue;
+    margin-left: -60px;
+}
+
+
+
+.kankle{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.kow{
+    background-color: lightpink;
+    width: 100px;
+}
+.labo{
+    background-color: lightblue;
+    width: 200px;
+
+}
+.sadaxad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.afarad,.shanad{
+    background-color: black;
+    color: #fff;
+}
+
