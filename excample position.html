@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>example position</title>
+  </head>
+  <style>
+    /* facebook */
+
+    .f {
+      display: flex;
+      align-items: center;
+      position: fixed;
+      justify-content: space-between;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .left {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+    .sadaq {
+      margin: 0;
+      padding: 0;
+      margin-left: 30px;
+    }
+    .sa {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+    .a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: blue;
+      border: none;
+      color: white;
+      opacity: 0.7;
+      border-radius: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .m {
+      margin-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    /* side */
+
+    .side {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+      background-color: rgb(56, 54, 54);
+      height: 210px;
+      width: 150px;
+      color: gray;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      margin-left: 100px;
+    }
+    .ku {
+      display: flex;
+      justify-content: space-between;
+    }
+    .into {
+      padding-left: 10px;
+      padding-bottom: 10px;
+      color: white;
+    }
+    .balas {
+      font-size: 20px;
+      padding-right: 10px;
+    }
+    .new,
+    .up,
+    .faq {
+      padding-left: 10px;
+      padding-bottom: 10px;
+      font-size: 12px;
+    }
+
+    /* dhexda  */
+
+    .dhexda {
+      background-color: beige;
+      width: 200px;
+      font-family: Arial, Helvetica, sans-serif;
+      position: fixed;
+      left: 200px;
+      top: 100px;
+      padding-bottom: 10px;
+      padding-left: 12px;
+    }
+    .modal {
+      font-weight: bold;
+    }
+    .this {
+      font-size: 15px;
+    }
+
+    /* sidebar  */
+
+    .sidebar {
+      position: fixed;
+      left: 0;
+      top: 55px;
+      width: 90px;
+      height: 200px;
+      background-color: black;
+      margin-top: 1px;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-right: 10px;
+    }
+    .cat {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+    }
+
+    .two {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+    }
+    .three {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+    }
+  </style>
+  <body style="height: 3000px">
+    <!-- <div
+      style="
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-color: black;
+        color: #fff;
+      "
+    >
+      bottom-right
+    </div> -->
+    <!-- <div
+      style="
+        position: fixed;
+        background-color: green;
+        right: 0;
+        top: 0;
+        width: 150px;
+        height: 100pc;
+      "
+    >
+      right sidebar
+    </div> -->
+
+    <div class="dhexda">
+      <p class="modal">Model Title</p>
+      <p class="this">This is a modal</p>
+      <button class="cl">close</button>
+    </div>
+
+    <!-- facebook -->
+
+    <div class="f">
+      <div class="left">
+        <img class="sa" src="/WhatsApp Image 2022-09-11 at 1.46.41 AM.jpeg" />
+        <p class="sadaq">sadaq cade</p>
+      </div>
+      <div class="right">
+        <button class="a">Add Friend</button>
+        <button class="m">Message</button>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- sidebar -->
+
+    <div class="sidebar">
+      <div>
+        <img class="cat" src="/cat.jpg" />
+      </div>
+      <div>
+        <img class="two" src="/cat2.jpg" />
+      </div>
+      <div>
+        <img class="three" src="/cat.jpg" />
+      </div>
+    </div>
+
+    <!-- side -->
+    <div class="side">
+      <div class="ku">
+        <div class="into">into</div>
+        <div class="balas">+</div>
+      </div>
+      <div class="new"># new-video</div>
+      <div class="up"># updates</div>
+      <div class="faq"># faq</div>
+    </div>
+  </body>
+</html>
